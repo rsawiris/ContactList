@@ -15,6 +15,10 @@ const SingleUser = ({users}) => {
     return (
         <div>
             <h1>{user.name}</h1>
+            <ul>
+                <li>E-mail: {user.email}</li>
+                <li>Phone: {user.phone}</li>
+            </ul>
             <Link to='/users'>
                 Back to all Users
             </Link>
